@@ -1,11 +1,11 @@
 {
     "name": "soundake/redis-storage",
-    "description": "Simple storage and session handler for Nette",
+    "description": "Simple storage and session handler for Nette.",
     "require": {
-        "php": "^5.4.4",
-        "predis/predis": "^1.0",
-        "nette/utils": "^2.3",
-        "nette/caching": "^2.4"
+        "php": ">=5.4",
+        "predis/predis": "~1.0",
+        "nette/utils": "~2.3",
+        "nette/caching": "~2.4"
     },
     "require-dev": {
         "nette/tester": "~1.0"
