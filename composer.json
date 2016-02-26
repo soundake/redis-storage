@@ -1,5 +1,5 @@
 {
-    "name": "sndk/redis-storage",
+    "name": "soundake/redis-storage",
     "description": "Simple storage and session handler for Nette",
     "require": {
         "php": "^5.4.4",

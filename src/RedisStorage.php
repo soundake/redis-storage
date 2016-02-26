@@ -6,7 +6,7 @@
  * Time: 17:35
  */
 
-namespace sndk;
+namespace soundake;
 
 
 use Nette\Caching\conditions;

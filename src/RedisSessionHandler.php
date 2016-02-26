@@ -6,7 +6,7 @@
  * Time: 18:25
  */
 
-namespace sndk;
+namespace soundake;
 
 use Nette\Object;
 use Predis\Client;

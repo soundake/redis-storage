@@ -9,7 +9,7 @@ require __DIR__ . '/../src/RedisStorage.php';
 
 $client = new \Predis\Client();
 
-$o = new \sndk\RedisStorage($client);
+$o = new \soundake\RedisStorage($client);
 
 $client->set('test1','test1data');
 $client->set('test2','test2data');
