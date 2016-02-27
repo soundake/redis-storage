@@ -1,6 +1,8 @@
 {
     "name": "soundake/redis-storage",
+    "type": "library",
     "description": "Simple storage and session handler for Nette.",
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
     "require": {
         "php": ">=5.4",
         "predis/predis": "~1.0",
@@ -10,11 +12,15 @@
     "require-dev": {
         "nette/tester": "~1.0"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "Lukas Hroch",
             "email": "soundake@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    }
 }
