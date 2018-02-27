@@ -2,8 +2,7 @@ language: php
 php:
   - 7.1
   - 7.2
-  - nightly
-env:
+ env:
   - TESTER_PHP_BIN="php-cgi"
   - TESTER_PHP_BIN="hhvm"
 matrix:
