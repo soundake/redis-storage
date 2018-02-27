@@ -33,7 +33,7 @@ install:
 #  - mysql -u root testbase < tests/testbase.sql
 
 script:
-  - ./vendor/bin/tester -p $TESTER_PHP_BIN -c ./tests/php.ini -s ./tests/
+  - ./vendor/bin/tester -p $TESTER_PHP_BIN -s ./tests/
 
 after_failure:
   # Vytiskne obsah souborů *.actual
