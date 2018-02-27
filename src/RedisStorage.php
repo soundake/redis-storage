@@ -8,12 +8,7 @@
 
 namespace soundake;
 
-
-use Nette\Caching\conditions;
-use Nette\Caching\data;
-use Nette\Caching\dependencies;
 use Nette\Caching\IStorage;
-use Nette\Caching\key;
 use Predis\Client;
 
 class RedisStorage implements IStorage
