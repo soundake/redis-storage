@@ -8,11 +8,11 @@
 
 namespace soundake;
 
-use Nette\Object;
 use Predis\Client;
 
-class RedisSessionHandler extends Object implements \SessionHandlerInterface
+class RedisSessionHandler implements \SessionHandlerInterface
 {
+    use \Nette\SmartObject;
 
 	private $redis;
 

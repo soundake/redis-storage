@@ -14,11 +14,11 @@ use Nette\Caching\data;
 use Nette\Caching\dependencies;
 use Nette\Caching\IStorage;
 use Nette\Caching\key;
-use Nette\Object;
 use Predis\Client;
 
-class RedisStorage extends Object implements IStorage
+class RedisStorage implements IStorage
 {
+    use \Nette\SmartObject;
 
     private $client;
 
